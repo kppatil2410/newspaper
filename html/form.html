@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Captcha Form</title>
+</head>
+<body>
+    <h2>Captcha Form</h2>
+    <center>
+    <form>
+        <br>
+        <fieldset>
+        <legend>Pernsonal Details</legend>
+        <br>
+        <label for="captcha">Enter Captcha:</label>
+        <input type="text" id="captcha" placeholder="Enter Captcha...."  name="captcha"> <!--Unpair tag input-->
+        <br>
+        <br>
+        <label for="username">Username: </label>
+        <input type="text" , id="username" , placeholder="Enter Name...." , name="username">
+        <br>
+        <br>
+        <label for="mail">Email :</label>
+        <input type="email" , placeholder="Enter Email" , id="mail" , name="Email">
+        <br>
+        <br>
+        <label for="pass">Password : <span style="color: red;">*</span></label>
+        <input type="password", id="pass" , name="Password" , placeholder="Enter Password" >
+        <br>
+        <br>
+        <label for="phone">Mobile : </label>
+        <input type="tel" id="phone" name="phone" placeholder="Enter Mobile...">
+        <br>
+        <br>
+        <label for="age">Age :</label>
+        <input type="number" id="age" name="age" min="1" max="100">
+        <br>
+        <br>
+        <label>Other :</label>
+        <input type="color">
+        <br>
+        <br>
+        <label>Date of Birth with time :</label>
+        <input type="datetime-local">
+        <br>
+        </fieldset>
+        <br>
+        <br>
+        <fieldset>
+            <legend>Other Details</legend>
+        <label>Profile URL:</label>
+        <input type="url">
+        <br>
+        <br>
+        <label>Upload PAN Card :</label>
+        <input type="file">
+        <br>
+        <br>
+        <label>Rate out of 5 :</label>
+        <input type="range" min="1" max="5" value="0" name="Rating">
+        <br>
+        <br>
+        <label>Search </label>
+        <input type="search">
+        <br>
+        <br>
+        <label>Payment Details:</label>
+        <label><input type="checkbox" name="option1" value="cash">Cash</label>
+        <label><input type="checkbox" name="option2" value="upi">UPI</label>
+        <label><input type="checkbox" name="option3" value="razorpay">RazorPay</label>
+        <br>
+        <br>
+        <label>Gender:</label>
+        <label><input type="radio" name="gender" value="male">Male</label>
+        <label><input type="radio" name="gender" value="femail">Female</label>
+        <br>
+        <br>
+        <label>You are allowed</label>
+        <input type="hidden">
+        <br>
+        <br>
+        <label for="tech">Choose the tech Stack :</label>
+        <select name="tech" id="tech" multiple>
+            <option value="html">HTML</option>
+            <option value="css">CSS</option>
+            <option value="js">JavaScript</option>
+        </select>
+        <br>
+        <br>
+        </fieldset>
+        <br>
+        <br>
+        <label for="comm">Comments :</label>
+        <textarea id="comm" rows="5" col="40" name="comment" placeholder="Enter comments..."></textarea>
+        <br>
+        <br>
+        <input type="submit"> &nbsp; &nbsp;
+        <input type="Reset" value="cancel">
+    </form>
+    </center>
+</body>
+</html>

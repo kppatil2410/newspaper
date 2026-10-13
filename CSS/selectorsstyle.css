@@ -1,0 +1,24 @@
+/* unvirsal selector */
+* {
+    font-style: italic;
+    color: blue;
+}
+
+/* Type/Tag selector */
+p {
+    background-color: yellow;
+    color:blueviolet;
+}
+h3 {
+    text-align: center;
+}
+
+/*ID Selector*/
+#para {
+    text-align: center;
+}
+
+/* Class Selector */
+h1 , h3, h5 {
+    background-color: aquamarine;
+}
